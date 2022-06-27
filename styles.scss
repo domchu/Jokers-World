@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-decoration: none;
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 .page-container {
   display: flex;
@@ -11,12 +14,19 @@
   margin-top: 10%;
 
   .joke-btn {
-    padding: 0.4rem;
+    padding: 0.7rem;
     cursor: pointer;
     color: #fff;
     background-color: rebeccapurple;
     border: none;
     border-radius: 5px;
+  }
+  .joke-btn:hover {
+    background-color: #212629;
+    color: #ccc;
+  }
+  .h2::first-letter {
+    color: hotpink;
   }
   .jokes-container {
     display: flex;
@@ -26,7 +36,7 @@
   }
   .loader {
     display: block;
-    width: 200px;
+    width: 250px;
     border-radius: 5px;
     background-color: #fff;
   }
