@@ -5,3 +5,23 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+.page-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+
+  .joke-btn {
+    padding: 0.4rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+  }
+  .jokes-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
