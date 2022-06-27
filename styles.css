@@ -41,4 +41,11 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.page-container .loader {
+  display: block;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #fff;
+}
 /*# sourceMappingURL=styles.css.map */
