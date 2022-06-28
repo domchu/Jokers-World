@@ -19,14 +19,26 @@
     color: #fff;
     background-color: rebeccapurple;
     border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
     border-radius: 5px;
   }
   .joke-btn:hover {
     background-color: #212629;
     color: #ccc;
   }
-  .h2::first-letter {
+  h2 {
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+  h2::first-letter {
     color: hotpink;
+  }
+  p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
   .jokes-container {
     display: flex;
@@ -35,7 +47,7 @@
     align-items: center;
   }
   .loader {
-    display: block;
+    display: none;
     width: 250px;
     border-radius: 5px;
     background-color: #fff;
